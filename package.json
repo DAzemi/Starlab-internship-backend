@@ -1,0 +1,43 @@
+{
+  "name": "e-commerce_backend",
+  "version": "1.0.0",
+  "description": "Backend infrastructure of the project: E-commerce. A project from group : \"Supernova\".",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "start:prod": "NODE_ENV=production nodemon server.js"
+  },
+  "author": "Supernova Group",
+  "license": "ISC",
+  "dependencies": {
+    "@stripe/stripe-js": "^2.2.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cookie-session": "^2.0.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.6.5",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.6",
+    "nodemon": "^3.0.1",
+    "passport": "^0.5.3",
+    "passport-google-oauth20": "^2.0.0",
+    "path": "^0.12.7",
+    "smtp": "^0.1.4",
+    "stripe": "^14.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.51.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-react": "^7.33.2"
+  }
+}

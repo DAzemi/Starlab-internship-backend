@@ -1,0 +1,23 @@
+{
+  "extends": [
+    "airbnb-base",
+    "plugin:node/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings"
+  ],
+  "plugins": ["node", "import", "jsx-a11y", "react"],
+  "rules": {
+    "spaced-comment": "off",
+    "no-console": "warn",
+    "consistent-return": "off",
+    "func-names": "off",
+    "object-shorthand": "off",
+    "no-process-exit": "off",
+    "no-param-reassign": "off",
+    "no-return-await": "off",
+    "no-underscore-dangle": "off",
+    "class-methods-use-this": "off",
+    "prefer-destructuring": ["off", { "object": true, "array": false }],
+    "no-unused-vars": ["off", { "argsIgnorePattern": "req|res|next|val" }]
+  }
+}
